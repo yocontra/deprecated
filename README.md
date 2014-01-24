@@ -25,12 +25,12 @@ var oldfn = function(a,b) {
 };
 
 // returns a new wrapper function that logs the deprecated function once
-var somefn = deprecated('dont use this anymore', console.log, oldfn);
+var somefn = deprecated.method('dont use this anymore', console.log, oldfn);
 
 var someobj = {};
 
 // set up a getter/set for field that logs deprecated message once
-deprecated('dont use this anymore', console.log, someobj, 'a', 123);
+deprecated.field('dont use this anymore', console.log, someobj, 'a', 123);
 
 console.log(someobj.a); // 123
 ```
