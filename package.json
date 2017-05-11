@@ -6,9 +6,9 @@
   "repository":"git://github.com/wearefractal/deprecated.git",
   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
   "main":"./index.js",
-  
+  "typings": "./index.d.ts",
   "dependencies":{
-    
+
   },
   "devDependencies": {
     "mocha": "~1.17.0",
