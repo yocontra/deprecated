@@ -1,15 +1,13 @@
 {
-  "name":"deprecated",
-  "description":"Tool for deprecating things",
-  "version":"0.0.1",
-  "homepage":"http://github.com/wearefractal/deprecated",
-  "repository":"git://github.com/wearefractal/deprecated.git",
-  "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-  "main":"./index.js",
+  "name": "deprecated",
+  "description": "Tool for deprecating things",
+  "version": "0.0.2",
+  "homepage": "http://github.com/wearefractal/deprecated",
+  "repository": "git://github.com/wearefractal/deprecated.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
   "typings": "./index.d.ts",
-  "dependencies":{
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "~1.17.0",
     "should": "~3.1.0",
@@ -26,10 +24,10 @@
   "engines": {
     "node": ">= 0.9"
   },
-  "licenses":[
+  "licenses": [
     {
-      "type":"MIT",
-      "url":"http://github.com/wearefractal/deprecated/raw/master/LICENSE"
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/deprecated/raw/master/LICENSE"
     }
   ]
 }
